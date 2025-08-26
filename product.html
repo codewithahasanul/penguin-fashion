@@ -1,0 +1,383 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/3885db1ba6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Pengin Fashion</title>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+      .font-bebas {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- navbar style -->
+      <nav
+        class="lg:flex lg:px-32 lg:justify-between lg:items-center p-5 bg-black text-white max-w-full"
+      >
+        <div>
+          <a href="index.html">
+            <img
+              class="max-w-72 mx-auto"
+              src="icons/logo.png"
+              alt="Site Logo"
+            />
+          </a>
+        </div>
+        <div class="">
+          <ul class="flex justify-between gap-3 lg:gap-5 px-3">
+            <li>
+              <a
+                class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 px-5 py-2 border-white rounded-lg"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 px-5 py-2 border-white rounded-lg"
+                href="product.html"
+                >Product</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 px-5 py-2 border-white rounded-lg"
+                href="about.html"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 px-5 py-2 border-white rounded-lg"
+                href="contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="lg:px-32">
+      <!-- category section  -->
+       <section class="lg:py-2 bg-slate-900">
+        <ul class="flex justify-center gap-4 text-white text-xl font-semibold">
+            <a href="">
+                <li>Man</li>
+            </a>
+            <a href="">
+                <li>Woman</li>
+            </a>
+            <a href="">
+                <li>Baby</li>
+            </a>
+        </ul>
+       </section>
+      <!-- Man collection -->
+      <section class="my-14">
+        <h1 class="uppercase font-bebas text-5xl mx-5 my-5">Man jacket</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-4.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Snowboard Jacket Mens
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-5.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Man Leather Jackets
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-6.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Man Casual Jackets
+              </h1>
+              <p>
+                Effortless style for everyday wear — our men’s casual jackets
+                combine comfort, versatility, and a modern look for any
+                occasion.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-4.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Snowboard Jacket Mens
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] lg:font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Woman collection -->
+      <section class="my-14">
+        <h1 class="uppercase font-bebas text-5xl mx-5 my-5">Woman jacket</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div>
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-1.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Yellow Coat Jacket
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-2.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Snowboard Jacket
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-3.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Leather Jacket
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="p-6 m-6 shadow-xl rounded-xl">
+            <div class="">
+              <img
+                class="bg-[#F1F1F1] rounded-xl p-5"
+                src="images/jacket-1.png"
+                alt=""
+              />
+              <h1 class="font-bold text-2xl text-[#363958] py-4">
+                Yellow Coat Jacket
+              </h1>
+              <p>
+                Stay warm, dry, and comfortable in every winter adventure with
+                our men’s snowboard jacket.
+              </p>
+            </div>
+            <div class="flex justify-between mt-3 items-center">
+              <h1 class="text-[#FABE4C] font-black text-3xl">$220</h1>
+              <button
+                class="px-5 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section></section>
+    </main>
+    <footer class="bg-black text-white lg:px-36 px-5 pt-6 lg:pt-20 pb-5">
+      <div class="grid lg:grid-cols-3">
+        <div>
+          <img class="max-w-72" src="icons/logo.png" alt="" />
+          <p class="py-5">
+            Penguine Fashion is a modern online fashion store offering
+            premium-quality jackets, coats, and trendy outfits. We bring you
+            stylish, comfortable, and durable clothing at affordable prices.
+          </p>
+        </div>
+        <div class="lg:pl-32">
+          <h1 class="font-bold text-xl">Quick Links</h1>
+          <div class="pt-5">
+            <ul class="flex lg:flex-col gap-2 lg:gap-3">
+              <li>
+                <a
+                  class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 py-2 border-white rounded-lg"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 py-2 border-white rounded-lg"
+                  href="product.html"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 py-2 border-white rounded-lg"
+                  href="about.html"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:bg-[#90AA2D] hover:px-5 hover:py-2 py-2 border-white rounded-lg"
+                  href="contact.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h1 class="font-bold text-xl">Contact Us</h1>
+          <div class="flex gap-5 pt-5 text-4xl">
+            <a href="#"><i class="fa-brands fa-facebook text-blue-800"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube text-red-700"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="text-white my-5" />
+      <div class="">
+        <p class="text-center text-gray-300 text-sm py-4">
+          &copy; 2025 Penguin Fashion. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
